@@ -1,55 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
-    <title>TEAMS Log In</title>
-    <link href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAa0gtsmtILf9rSC3/a0gt/2tILf9rSC3/a0gt/2tILf9rSC3/a0gt/2tILf9rSC3/a0gt/2tILbIAAAAAa0gtsmtILf+KXj3/il49/4pePf+KXj3/il49/4pePf+KXj3/il49/4pePf+KXj3/il49/4pePf9rSC3/a0gtsmtILf+KXj3/il49/4pePf+KXj3/il49/4pePf+KXj3/il49/4pePf+KXj3/il49/4pePf+KXj3/il49/2tILf9rSC3/Hx8f/x8fH/8fHx//il49/4pePf+KXj3/il49/4pePf+KXj3/il49/4pePf8fHx//Hx8f/x8fH/9rSC3/a0gt/x8fH/8fHx//Hx8f/x8fH/+KXj3/il49/4pePf+KXj3/il49/4pePf8fHx//Hx8f/x8fH/8fHx//a0gt/2tILf8mJib/JiYm/yYmJv8mJib/Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//JiYm/yYmJv8mJib/JiYm/2tILf9rSC3/JiYm/yYmJv8mJib/JiYm/yYmJv8mJib/x4hY/8eIWP8mJib/JiYm/yYmJv8mJib/JiYm/yYmJv9rSC3/a0gt/yYmJv8mJib/JiYm/8eIWP8mJib/JiYm/yYmJv8mJib/JiYm/yYmJv/HiFj/JiYm/yYmJv8mJib/a0gt/2tILf8rKyv/JiYm/8eIWP/HiFj/x4hY/yYmJv8mJib/JiYm/yYmJv/HiFj/JiYm/8eIWP8mJib/Kysr/2tILf9rSC3/MDAw/ysrK/8mJib/x4hY/yYmJv8mJib/JiYm/yYmJv8mJib/JiYm/8eIWP8mJib/Kysr/zAwMP9rSC3/a0gt/zg4OP8wMDD/Kysr/ysrK/8rKyv/x4hY/ysrK/8rKyv/x4hY/ysrK/8rKyv/Kysr/zAwMP84ODj/a0gt/2tILf+KXj3/ODg4/zAwMP8wMDD/MDAw/zAwMP8wMDD/MDAw/zAwMP8wMDD/MDAw/zAwMP84ODj/il49/2tILf9rSC3/lGRA/4pePf84ODj/ODg4/zg4OP84ODj/lGRA/5RkQP84ODj/ODg4/zg4OP84ODj/il49/5RkQP9rSC3/a0gt/5RkQP+UZED/il49/8eIWP/HiFj/lGRA/5RkQP+UZED/lGRA/8eIWP/HiFj/il49/5RkQP+UZED/a0gt/2tILbJrSC3/lGRA/5RkQP+UZED/lGRA/5RkQP+UZED/lGRA/5RkQP+UZED/lGRA/5RkQP+UZED/a0gt/2tILbIAAAAAa0gtsmtILf9rSC3/a0gt/2tILf9rSC3/a0gt/2tILf9rSC3/a0gt/2tILf9rSC3/a0gt/2tILbIAAAAAgAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAEAAA==" rel="icon" type="image/x-icon" />
-    
-    
-    
-   
-
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <title>TEAMS Log In</title>
+  <link
+    href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAa0gtsmtILf9rSC3/a0gt/2tILf9rSC3/a0gt/2tILf9rSC3/a0gt/2tILf9rSC3/a0gt/2tILbIAAAAAa0gtsmtILf+KXj3/il49/4pePf+KXj3/il49/4pePf+KXj3/il49/4pePf+KXj3/il49/4pePf9rSC3/a0gtsmtILf+KXj3/il49/4pePf+KXj3/il49/4pePf+KXj3/il49/4pePf+KXj3/il49/4pePf+KXj3/il49/2tILf9rSC3/Hx8f/x8fH/8fHx//il49/4pePf+KXj3/il49/4pePf+KXj3/il49/4pePf8fHx//Hx8f/x8fH/9rSC3/a0gt/x8fH/8fHx//Hx8f/x8fH/+KXj3/il49/4pePf+KXj3/il49/4pePf8fHx//Hx8f/x8fH/8fHx//a0gt/2tILf8mJib/JiYm/yYmJv8mJib/Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//JiYm/yYmJv8mJib/JiYm/2tILf9rSC3/JiYm/yYmJv8mJib/JiYm/yYmJv8mJib/x4hY/8eIWP8mJib/JiYm/yYmJv8mJib/JiYm/yYmJv9rSC3/a0gt/yYmJv8mJib/JiYm/8eIWP8mJib/JiYm/yYmJv8mJib/JiYm/yYmJv/HiFj/JiYm/yYmJv8mJib/a0gt/2tILf8rKyv/JiYm/8eIWP/HiFj/x4hY/yYmJv8mJib/JiYm/yYmJv/HiFj/JiYm/8eIWP8mJib/Kysr/2tILf9rSC3/MDAw/ysrK/8mJib/x4hY/yYmJv8mJib/JiYm/yYmJv8mJib/JiYm/8eIWP8mJib/Kysr/zAwMP9rSC3/a0gt/zg4OP8wMDD/Kysr/ysrK/8rKyv/x4hY/ysrK/8rKyv/x4hY/ysrK/8rKyv/Kysr/zAwMP84ODj/a0gt/2tILf+KXj3/ODg4/zAwMP8wMDD/MDAw/zAwMP8wMDD/MDAw/zAwMP8wMDD/MDAw/zAwMP84ODj/il49/2tILf9rSC3/lGRA/4pePf84ODj/ODg4/zg4OP84ODj/lGRA/5RkQP84ODj/ODg4/zg4OP84ODj/il49/5RkQP9rSC3/a0gt/5RkQP+UZED/il49/8eIWP/HiFj/lGRA/5RkQP+UZED/lGRA/8eIWP/HiFj/il49/5RkQP+UZED/a0gt/2tILbJrSC3/lGRA/5RkQP+UZED/lGRA/5RkQP+UZED/lGRA/5RkQP+UZED/lGRA/5RkQP+UZED/a0gt/2tILbIAAAAAa0gtsmtILf9rSC3/a0gt/2tILf9rSC3/a0gt/2tILf9rSC3/a0gt/2tILf9rSC3/a0gt/2tILbIAAAAAgAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAEAAA=="
+    rel="icon" type="image/x-icon" />
 </head>
+
 <body>
- <div id="content">
-    <div id="close-icon"><button id='close-button'><span class="material-icons">close
-    </span></button></div>
-    <div id="TeamsLogo">
-     <div id="Teams">TEAMS</div>
-     <div id="Logo"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M192 64C86 64 0 150 0 256S86 448 192 448H448c106 0 192-86 192-192s-86-192-192-192H192zM496 168a40 40 0 1 1 0 80 40 40 0 1 1 0-80zM392 304a40 40 0 1 1 80 0 40 40 0 1 1 -80 0zM168 200c0-13.3 10.7-24 24-24s24 10.7 24 24v32h32c13.3 0 24 10.7 24 24s-10.7 24-24 24H216v32c0 13.3-10.7 24-24 24s-24-10.7-24-24V280H136c-13.3 0-24-10.7-24-24s10.7-24 24-24h32V200z"/></svg> 
+  <div class="content">
+    <div class="close-icon"><button class='close-button'><span class="material-icons">close
+        </span></button></div>
+    <div class="TeamsLogo">
+      <div class="Teams">TEAMS</div>
+      <div class="Logo"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+          <path
+            d="M192 64C86 64 0 150 0 256S86 448 192 448H448c106 0 192-86 192-192s-86-192-192-192H192zM496 168a40 40 0 1 1 0 80 40 40 0 1 1 0-80zM392 304a40 40 0 1 1 80 0 40 40 0 1 1 -80 0zM168 200c0-13.3 10.7-24 24-24s24 10.7 24 24v32h32c13.3 0 24 10.7 24 24s-10.7 24-24 24H216v32c0 13.3-10.7 24-24 24s-24-10.7-24-24V280H136c-13.3 0-24-10.7-24-24s10.7-24 24-24h32V200z" />
+        </svg>
+      </div>
     </div>
+    <div class="input">
+      <div class="input-text">Enter using email and password</div>
+      <div class="login"><input type="text" placeholder="Enter email or your login"></div>
+      <div class="password"><input type="password" placeholder="Enter password"></div>
+      <div class="rememberMe"><input type="checkbox">Remember me</div>
+      <div class="button"><button class="btn-sbmt" type="submit" onclick="log()">Log In</button></div>
     </div>
-
-        
-        <div id="input">
-        <div id="input-text">Enter using email and password</div>
-        <div id="login"><input type="text" placeholder="Enter email or your login"></div>
-        <div id="password"><input type="password" placeholder="Enter password"></div>
-        <div id="rememberMe"><input type="checkbox">Remember me</div>
-        <div id="button"><button id="btn-sbmt" type="submit" onclick="log()">Log In</button></div>
-        </div>
-
-    <div id="enterWith"><p>Or enter with QR</p>
-      <div><img id="qrimg" src="https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Fstore.steampowered.com%2F&chs=180x180&choe=UTF-8&chld=L|2" alt="qr code"><a href="www.qr-code-generator.com/" border="0" style="cursor:pointer" rel="follow"></a>
+    <div class="enterWith">
+      <p>Or enter with QR</p>
+      <div><img class="qrimg"
+          src="https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Fstore.steampowered.com%2F&chs=180x180&choe=UTF-8&chld=L|2"
+          alt="qr code"><a href="www.qr-code-generator.com/" style="cursor:pointer" rel="follow"></a>
       </div>
-      </div>
-
-      <div id="links">
-        <div id="helpme"><a href="https://help.steampowered.com/" target="_blank">Can't log in?</a></div>
-        <div id="regme"><a href="https://store.steampowered.com/join" target="_blank">Don't have account?</a></div>
-      </div>
-   
-
-
-<script>
-  function log() {
-    alert("Thanks for clicking!");
-  }
-</script>
-</div>   
+    </div>
+    <div class="links">
+      <div class="helpme"><a href="https://help.steampowered.com/" target="_blank">Can't log in?</a></div>
+      <div class="regme"><a href="https://store.steampowered.com/join" target="_blank">Don't have account?</a></div>
+    </div>
+    <script>
+      function log() {
+        alert("Thanks for clicking!");
+      }
+    </script>
+  </div>
 </body>
+
 </html>
