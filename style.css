@@ -16,7 +16,7 @@ body {
   color: #c7d5e0;
   font-size: 1.5rem;
   font-weight: bold;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Press Start 2P', cursive;
   user-select: none;
 
 }
@@ -73,7 +73,7 @@ body {
 }
 
 .input-text {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Montserrat Subrayada', sans-serif;
   user-select: none;
   font-size: x-large;
   color: #c7d5e0;
@@ -84,7 +84,7 @@ body {
 .rememberMe {
   color: #c7d5e0;
   margin-bottom: 2%;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Montserrat Subrayada', sans-serif;
   user-select: none;
 
 }
@@ -97,6 +97,7 @@ body {
   min-width: 50vh;
   color: white;
   user-select: none;
+  font-family: 'Montserrat Subrayada', sans-serif;
 }
 
 .btn-sbmt:hover {
@@ -140,7 +141,7 @@ input[type=password]:hover {
 }
 
 .enterWith {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Montserrat Subrayada', sans-serif;
   color: #c7d5e0;
   display: flexbox;
   margin-left: 60%;
