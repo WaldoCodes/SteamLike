@@ -40,7 +40,7 @@ body {
   border-radius: 5px;
   margin-left: 89%;
   padding-top: 10px;
-
+  user-select: none;
 }
 
 .close-button:hover {
@@ -70,6 +70,7 @@ body {
   display: flexbox;
   margin-left: 15%;
   margin-top: 5%;
+  user-select: none;
 }
 
 .input-text {
@@ -184,6 +185,7 @@ a {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #c7d5e0;
   margin: 5%;
+  user-select: none;
 }
 
 .helpme {
